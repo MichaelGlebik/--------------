@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pic {
+    background-image: url(./img/lpmtm.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#clock {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+
+.display {
+    text-align: center;
+    color: #000000;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.hours,
+.minutes,
+.seconds {
+    display: inline-block;
+}
+
+.weather_widget {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.location {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.current_weather,
+.date-1,
+.date-2,
+.date-3 {
+    text-align: center;
+    margin-bottom: 5px;
+    border-bottom: 1px solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.temperature {
+    font-size: 16px;
+}
+
+.weather_description {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.date {
+    text-align: center;
+    font-size: 14px;
+}
